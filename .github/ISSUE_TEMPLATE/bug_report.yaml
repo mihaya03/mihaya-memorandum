@@ -1,0 +1,16 @@
+name: bug report
+description: バグ報告
+title: "bug: "
+labels: ["bug"]
+assignees:
+  - mihaya03
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: バグ内容
+      description: バグの詳細を記載する
+      placeholder: |
+        - どのようなバグか
+    validations:
+      required: true

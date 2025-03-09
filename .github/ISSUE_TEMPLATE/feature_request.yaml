@@ -1,0 +1,16 @@
+name: feature request
+description: 新規機能の追加・既存機能の変更に関する私案
+title: "feat: "
+labels: ["feature"]
+assignees:
+  - mihaya03
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 機能概要
+      description: 追加/変更する機能の概要を記載する
+      placeholder: |
+        - どのような機能か
+    validations:
+      required: true
